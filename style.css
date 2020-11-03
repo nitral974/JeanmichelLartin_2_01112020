@@ -257,40 +257,6 @@ p{
 
 /* ACTIVITES */
 
-.activites-galerie{
-    height: 450px;
-    display: grid;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-template-columns: repeat(4, 25%);
-    
-}
-.activites-item:nth-child(1){
-    grid-column-start: 1;
-    grid-column-end: 2;
-    grid-row-start: 1;
-    grid-row-end: 4;    
-}
-.activites-item:nth-child(2){
-    grid-column-start: 2;
-    grid-column-end: 3;
-    grid-row-start: 1;
-    grid-row-end: 5;    
-}
-.activites-img{
-    min-width: 100%;
-    height: calc(100% - 60px);
-    object-fit: cover;
-    border-radius: 25px 25px 0 0;
-}
-figcaption{
-    height: 60px;
-    padding: 16px;
-    border-radius: 0 0 25px 25px;
-    box-shadow: 0 0 5px #F2F2F2;
-}
-
-
-
 
 
 
