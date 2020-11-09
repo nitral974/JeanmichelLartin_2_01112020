@@ -41,7 +41,12 @@ span::after{
     font-weight: bold;
     color: #d8d8d8;
 }
-
+input:focus{
+    outline: none;
+}
+button:focus{
+    outline: none;
+}
 
 /* HEADER */
 
@@ -126,6 +131,7 @@ p{
     font-weight: 800;
     font-size: 1.4em;
     padding: 16px;
+    outline-style: none;
   }
 .btn-search{
     width: 40%;
@@ -169,11 +175,12 @@ p{
     padding-right: 16px;
     font-size: 1.1em;
     font-weight: 800;
+   
 }
 .filtres-btn i{
     background-color: #DEEBFF;
-    height: 49px;
-    width: 49px;
+    height: 50px;
+    width: 50px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -182,6 +189,13 @@ p{
     color: #0065FC;
     font-size: 1.2em;
 }
+.filtres-btn:hover{
+    background-color: #DEEBFF;
+    color: #0065FC;
+    transition: 1s;
+}
+
+
 .filtresInfo{
     display: flex;
     align-items: center;
@@ -189,8 +203,8 @@ p{
 }
 
 .filtresInfo i{
-    max-height: 25px;
-    max-width: 25px;
+    height: 25px;
+    width: 25px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -533,7 +547,6 @@ footer{
         height: 100%;
         padding-left: 20px;
         padding-right: 20px;
-        
     }
     .filtres-btn{
         cursor: pointer;
@@ -703,7 +716,6 @@ footer{
         align-items: center;
         justify-content: center;
         width: 15%;
-        /* padding: 20px; */
         border: none;
         background-color: #0065FC;
         border-radius: 15px;
@@ -844,44 +856,3 @@ footer{
 }
 
 
-
-
-
-/* @media (max-width :360px){
-    .aside-info{
-        padding: 1em 1em 0.5em 1em;
-    }
-    .aside h3, .aside p{
-        font-size: 0.8em;
-    }
-} */
-
-/* @media (max-width: 1333px) and (min-width: 1024px){
-    h3, p{
-        font-size: 0.8em;
-    }
-    .galerie{
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: auto 2fr auto;
-    }
-    
-    .article{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        row-gap: 20px;
-        column-gap: 20px;
-        align-items: center;
-    }
-    .galerie-item{
-        max-width: 740px;
-    }
-    .aside{
-        display: grid;
-       grid-template-columns: 1fr;
-    }
-    .article-aside{
-        display: grid;
-        grid-template-columns: 1fr;
-    }
-} */
