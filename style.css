@@ -922,9 +922,9 @@ footer{
     .aside-info{
         height: auto;
     }
-    /* .activites-container{
+    .activites-container{
         column-gap: 0px;
-    } */
+    }
     .activites-container p{
         font-size: 0.7em;
         padding: 0.5em;
