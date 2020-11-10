@@ -459,17 +459,7 @@ footer{
 }
 
 
-
-
-
-
 /* MEDIA */
-@media screen and (max-width: 374px){
-
-}
-
-
-
 
 
 @media screen and (max-width: 599px){
@@ -660,7 +650,7 @@ footer{
     }
 }
 
-@media screen and (max-width: 1439px) and (min-width: 600px){
+@media screen and (max-width: 799px) and (min-width: 600px){
 
     /* HEADER */
 
@@ -868,7 +858,94 @@ footer{
         height: auto;
     }
 }
+/* Permet d'adapter la page sur les Ã©crans jusqu' Ã  1440px */
 
+@media screen and (max-width: 1360px) and (min-width: 800px){
+    .tableau{
+        display: grid;
+        grid-template-rows: 1fr auto;
+        grid-template-columns: 1fr;
+        max-width: 100%;
+        width: 100%;
+        row-gap: 25px;
+    }
+    .galerie{
+        width: 100%;
+    }
+    .galerie-item{
+        max-width: 100%;
+        width: 100%;
+    }
+    .article{
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: 20px;
+        row-gap: 20px;
+    }
+    .aside{
+        width: 100%;
+        min-height: auto;
+        height: auto;
+        display: grid;
+        grid-template-rows: 4em 1fr;
+        grid-template-columns: 1fr;
+    }
+    .article-aside{
+        display: grid;
+        grid-template-rows: auto;
+        grid-template-columns: repeat(3, 1fr);
+        min-height: auto;
+        column-gap: 25px;
+    }
+    .aside-item{
+        flex-direction: column;
+        height: auto;
+       
+    }
+    .aside-img{
+        max-width: 100%;
+        width: 100%;
+        height: 127px;
+        border-radius: 15px 15px 0 0;
+    }
+    
+    .aside-info{
+        height: auto;
+    }
+    .activites-container{
+        column-gap: 25px;
+    }
+    .activites-container p{
+        font-size: 0.7em;
+        padding: 0.5em;
+    }
+
+}
+
+
+
+
+
+
+/* Permet d'adapter la page sur les plus petits tÃ©lÃ©phones 320px */
+
+@media screen and (max-width: 374px){
+
+    .aside-item{
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr;
+    }
+    .aside-img{
+        max-width: 100%;
+        width: 100%;
+        border-radius: 15px 15px 0 0;
+    }
+    .aside-info{
+        padding: 0;
+    }
+}
 
 
 
