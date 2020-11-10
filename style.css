@@ -89,14 +89,10 @@ nav{
 main{
     margin: 0 3.47% 0 3.47%;
 }
-
-
-
 p{
     line-height: 35px;
     padding-bottom: 10px;
 }
-
 /* SEARCH */
 .search-bar{
     max-width: 420px;
@@ -926,9 +922,9 @@ footer{
     .aside-info{
         height: auto;
     }
-    .activites-container{
-        column-gap: 25px;
-    }
+    /* .activites-container{
+        column-gap: 0px;
+    } */
     .activites-container p{
         font-size: 0.7em;
         padding: 0.5em;
