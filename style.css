@@ -193,13 +193,12 @@ p{
     font-size: 1.2em;
     
 }
-.filtres-btn:hover{
+.filtres-btn:hover, .filtres-btn:focus{
     background-color: #DEEBFF;
     color: #0065FC;
     border-color: #DEEBFF;
     box-shadow: 0 0 15px #0065FC;
 }
-
 
 .filtresInfo{
     display: flex;
