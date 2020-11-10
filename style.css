@@ -135,12 +135,15 @@ p{
   }
 .btn-search{
     width: 40%;
-    border: none;
+    border: 1px solid #0065FC;
     border-radius: 0 15px 15px 0;
     background-color: #0065FC;
     color: white;
     font-size: 1em;
     font-weight: bold;
+}
+.btn-search:hover{
+    cursor: pointer;
 }
 .btn-search--mini{
     display: none;
@@ -188,11 +191,13 @@ p{
     margin-right: 16px;
     color: #0065FC;
     font-size: 1.2em;
+    
 }
 .filtres-btn:hover{
     background-color: #DEEBFF;
     color: #0065FC;
-    transition: 1s;
+    border-color: #DEEBFF;
+    box-shadow: 0 0 15px #0065FC;
 }
 
 
@@ -301,7 +306,7 @@ p{
     content: "\f005\f005";
 }
 .galerie-item:hover{
-    bottom: 2px;
+    box-shadow: 0 0 10px #0065FC;
 }
 
 /* ASIDE */
@@ -359,7 +364,7 @@ p{
     flex-grow: 1;
 }
 .aside-item:hover{
-    bottom: 2px;
+    box-shadow: 0 0 10px #0065FC;
 }
 /* ACTIVITES */
 .activites{
@@ -387,7 +392,7 @@ p{
     position: relative;
 }
 .activites-link:hover{
-    bottom: 2px;
+    box-shadow: 0 0 10px #0065FC;
 }
 
 .activites-boximg{
