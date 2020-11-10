@@ -553,12 +553,14 @@ footer{
         padding-right: 16px;
     }
     .filtres-btn i{
+        max-width: 335px;
         margin-right: 10px;
     }
     .container-title-filtre{
         width: 100%;
     }
     .filtresInfo{
+        max-width: 335px;
         margin: 20px 0 20px 0;
     }
     .filtresInfo i{
@@ -729,6 +731,7 @@ footer{
         height: 100%;
         padding-left: 20px;
         padding-right: 20px;
+        margin: 0;
     }
     .filtres-btn{
         cursor: pointer;
@@ -742,7 +745,8 @@ footer{
         width: 100%;
     }
     .filtresInfo{
-        margin: 20px 0 20px 0;
+        margin: 20px 0 0 0;
+        max-width: 335px;
     }
     .filtresInfo i{
         height: 25px;
@@ -763,7 +767,7 @@ footer{
 
     .galerie{
         margin: 0;
-        padding: 20px 20px 0 20px;
+        padding: 0px 20px 0 20px;
         border-radius: 0;
         background-color: white;
         order: 0;
