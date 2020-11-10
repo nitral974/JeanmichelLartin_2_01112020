@@ -606,10 +606,11 @@ footer{
         justify-content: space-around;
     }
     .article{
-        height: auto;
+        height: 100%;
         flex-direction: column;
         justify-content: space-between;
-        row-gap: 25px;
+        gap: 25px;
+        /* row-gap: 25px; */
     }
     .galerie-item{
         max-width: 100%;
@@ -638,7 +639,8 @@ footer{
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        row-gap: 25px;  
+        gap: 25px;
+        /* row-gap: 25px;   */
     }
     .activites-boximg{
         height: 190px;
