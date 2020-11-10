@@ -244,7 +244,7 @@ p{
     flex-direction: column;
     justify-content: space-between;
 }
-.galerie a{
+.galerie-link--spec{
     line-height: 40px;
     font-size: 1.2em;
     font-weight: bold;
@@ -391,11 +391,13 @@ p{
     border-radius: 15px 15px 0 0;
 }
 .activitesInfo{
+    max-height: 55px;
     height: 100%;
     display: flex;
     justify-content: start;
     align-content: center;
 }
+
 .activitesInfo > p{
     padding: 0;
     display: flex;
@@ -406,6 +408,7 @@ p{
 }
 .activites-items1{
     grid-row: 1 / -1;
+
 }
 .activites-items2{
     grid-row: 1 / 7;
@@ -787,8 +790,7 @@ footer{
     }
     .galerie-item{
         max-width: 100%;
-        min-height: 300px;
-        
+        min-height: 300px;  
     }
     .galerie-img{
         width: 100%;
@@ -809,7 +811,6 @@ footer{
         height: 100%;
         margin: 0 20px 50px 20px;
     }
-
     .activites-container{
         height: 100%;
         width: 100%;
