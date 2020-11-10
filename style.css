@@ -606,7 +606,7 @@ footer{
         justify-content: space-around;
     }
     .article{
-        height: 100%;
+        height: auto;
         flex-direction: column;
         justify-content: space-between;
         row-gap: 25px;
