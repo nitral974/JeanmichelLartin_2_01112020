@@ -466,7 +466,7 @@ footer{
 /* MEDIA */
 
 
-@media (max-width: 599px){
+@media screen and (max-width: 599px){
 
     /* HEADER */
 
@@ -651,7 +651,7 @@ footer{
     }
 }
 
-@media (max-width: 1439px) and (min-width: 600px){
+@media screen and (max-width: 1439px) and (min-width: 600px){
 
     /* HEADER */
 
